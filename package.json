@@ -1,0 +1,9 @@
+{
+  "name": "bike-cost",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/",
+    "build": "node scripts/build.mjs"
+  }
+}
