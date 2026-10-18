@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync, copyFileSync, rmSync } from "node:fs";
 import { DEFAULTS, DEFAULT_FUEL_PRICE, RATES } from "../src/data.mjs";
 import { annualCost } from "../src/calc.mjs";
 
-const SITE = (process.env.SITE_URL || "").replace(/\/$/, "") || "https://example.pages.dev";
+const SITE = (process.env.SITE_URL || "").replace(/\/$/, "") || "https://bike-ijihi.daichi01278.workers.dev";
 if (process.env.CF_PAGES && !process.env.SITE_URL) {
   console.error("SITE_URL is not set. Cloudflare Pages > Settings > Variables: SITE_URL=https://<project>.pages.dev, then retry the deployment.");
   process.exit(1);
