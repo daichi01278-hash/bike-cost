@@ -95,6 +95,7 @@ function page(p) {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${p.title}</title>
 <meta name="description" content="${p.lead.slice(0, 110)}">
+<meta name="google-site-verification" content="d1KC3RWLxzpQyKVX4PBwIM01-ayEmqoR8rcqLMGaOBk">
 <link rel="icon" href="data:,">
 <link rel="canonical" href="${url}">
 <link rel="stylesheet" href="/style.css">
