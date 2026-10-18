@@ -1,7 +1,7 @@
 // Used only if the site is deployed as a Cloudflare Worker with static assets.
 // Cloudflare Pages ignores this file (no pages_build_output_dir).
 {
-  "name": "bike-cost",
+  "name": "bike-ijihi",
   "compatibility_date": "2026-10-01",
   "assets": { "directory": "./dist" }
 }
