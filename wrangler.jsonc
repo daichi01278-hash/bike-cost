@@ -1,7 +1,6 @@
-// Used only if the site is deployed as a Cloudflare Worker with static assets.
-// Cloudflare Pages ignores this file (no pages_build_output_dir).
+// サイトは https://nirin-navi.com/cost に移転済み。この Worker は旧URLからのリダイレクトだけを行う。
 {
   "name": "bike-ijihi",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./dist" }
+  "main": "./worker.js"
 }

@@ -1,3 +1,5 @@
+> **移転しました:** このサイトは https://nirin-navi.com/cost に統合されました。旧URL(bike-ijihi.daichi01278.workers.dev)は `worker.js` で新URLへ恒久リダイレクトしています。
+
 # bike-cost
 
 バイクの年間維持費と、手放すタイミング(4月1日の課税・車検前の売却・重量税の増額)を計算する静的サイト。
